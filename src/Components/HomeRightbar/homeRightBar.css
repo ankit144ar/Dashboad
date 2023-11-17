@@ -1,0 +1,110 @@
+.homeRightbar{
+    flex: 4;
+    background-color: rgba(224, 216, 216,0.2);
+    height: 100vh;
+}
+.itemContainers{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 97%;
+    padding-top: 15px;;
+}
+
+.itemContainer{
+    width: 33%;
+    min-width: 320px;
+    margin: 0 5px;;
+    height: 20vh;
+    background-color:#fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.subItemContainer>p {
+    margin: 5px 0;
+}
+
+.taskProgress{
+    margin-top: 30px;
+}
+
+.taskCounter{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.itemContainer_1 .taskCounter{
+    color: #17964a;
+}
+
+.itemContainer_2 .taskCounter{
+    color: #493C8B;
+}
+
+.itemContainer_3 .taskCounter{
+    color: #FFA500;
+}
+
+.middleTaskChart {
+    width: 95%;
+    padding: 1%;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+}
+
+.createdVsCompleted {
+    margin-bottom: 35px;
+}
+
+.taskContainer {
+    display: flex;
+    width: 97%;
+    justify-content: center;
+    align-items: normal;
+    margin: 0 auto;
+    border-radius: 10px;
+    column-gap: 2%;
+}
+
+.taskChart {
+    flex: 1.7;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.monthlyEarning {
+    flex: 3;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.taskContainer .recharts-wrapper{
+    width: 100%!important;
+}
+
+.teamPerformanceText{
+    width: 80%;
+    margin: 15px auto ;
+    color: rgb(76, 77, 78);
+}
+
+.viewDetails {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #09943f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}

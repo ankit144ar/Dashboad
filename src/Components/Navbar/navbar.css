@@ -1,0 +1,72 @@
+.mainNavContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(215, 213, 215, 0.36);
+}
+
+.searchIcon,.notificationIcon{
+    width:20px;
+    height: 20px;
+}
+
+.notificationIcon{
+    background-color: rgb(228,213,213);
+    padding: 4px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.profileIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dashboadContainer{
+    flex: 0.9;
+    text-align: center;;
+}
+
+.searchItemsContainer{
+    display: flex;
+    flex: 2;
+    margin-right: 5%;
+    background-color: rgba(236, 236, 236, 0.9);
+    padding: 6px;
+    border-radius: 16px;
+    border: 1px solid #999;
+}
+
+.profileItemsContainers{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+}
+
+.profileItems{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin: 0 10px 0 20px;
+}
+
+.profileName{
+    margin: inherit;
+}
+
+.dashText{
+    font-size: 20px;
+    margin-right:35px;
+}
+
+.searchInput{
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 3px;
+}
+
+.searchInput:focus {
+    outline:none;
+}
